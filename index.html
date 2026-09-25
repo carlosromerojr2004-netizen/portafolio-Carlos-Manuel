@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Carlos Manuel Romero Hernández</title>
+    <style>
+        /* Estilos generales */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            color: #333; 
+            background-color: #f4f7f6; 
+            margin: 0; 
+        }
+        
+        /* Cabecera */
+        header { 
+            background-color: #1a365d; 
+            color: #fff; 
+            padding: 3rem 2rem; 
+            text-align: center; 
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 2.5rem; 
+            letter-spacing: 1px;
+        }
+        header p { 
+            font-size: 1.2rem; 
+            color: #a0aec0; 
+            margin-top: 5px;
+        }
+        .contact-info { 
+            display: flex; 
+            justify-content: center; 
+            gap: 15px; 
+            margin-top: 15px; 
+            flex-wrap: wrap; 
+        }
+        .contact-info span { 
+            background: rgba(255,255,255,0.1); 
+            padding: 5px 12px; 
+            border-radius: 4px; 
+            font-size: 0.9rem;
+        }
+
+        /* Botón de descarga */
+        .btn-download { 
+            display: inline-block; 
+            background-color: #3182ce; 
+            color: white; 
+            padding: 12px 24px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            margin-top: 25px; 
+            font-weight: bold; 
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .btn-download:hover { 
+            background-color: #2b6cb0; 
+        }
+
+        /* Contenedor principal */
+        .container { 
+            max-width: 800px; 
+            margin: -20px auto 40px auto; 
+            padding: 0 20px; 
+        }
+        
+        /* Secciones */
+        .section { 
+            background: #fff; 
+            padding: 30px; 
+            margin-bottom: 25px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+        }
+        h2 { 
+            color: #2d3748; 
+            border-bottom: 2px solid #e2e8f0; 
+            padding-bottom: 10px; 
+            margin-top: 0;
+        }
+        
+        /* Listas (Experiencia y Educación) */
+        ul { 
+            list-style-type: none; 
+            padding: 0; 
+        }
+        ul li { 
+            background: #f8fafc; 
+            margin: 10px 0; 
+            padding: 15px; 
+            border-radius: 5px; 
+            border-left: 4px solid #3182ce;
+        }
+        
+        /* Habilidades */
+        .skills { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+            margin-top: 15px;
+        }
+        .skill-tag { 
+            background-color: #edf2f7; 
+            color: #2d3748; 
+            padding: 8px 16px; 
+            border-radius: 20px; 
+            font-size: 0.9rem; 
+            font-weight: 500;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Carlos Manuel Romero Hernández</h1>
+        <p>Técnico en Ingeniería Eléctrica</p>
+        <div class="contact-info">
+            <span>📍 Santa Rosa de Lima, La Unión, El Salvador</span>
+            <span>📱 72370677</span>
+            <span>✉️ carlos_romero_01@gmail.com</span>
+        </div>
+        
+        <!-- Aquí está el enlace directo al archivo PDF -->
+        <a href="Curriculum_Carlos_Manuel_Romero.pdf" class="btn-download" download>📥 Descargar Currículum (PDF)</a>
+    </header>
+
+    <div class="container">
+        
+        <div class="section">
+            <h2>Perfil Profesional</h2>
+            <p>Técnico en Ingeniera Eléctrica cursándolo El Instituto Técnico Tecnológico Centro Americano (ITCA-FEPADE) en la Ciudad de San Miguel, Inicio del estudio 2000 finalización 2003.</p>
+        </div>
+
+        <div class="section">
+            <h2>Experiencia Profesional y Proyectos</h2>
+            <ul>
+                <li>⚡ Reparación De Electrodomésticos</li>
+                <li>⚡ Instalaciones Eléctricas De Hogares</li>
+                <li>💻 Mantenimiento de Equipo Informáticos</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Educación y Formación</h2>
+            <ul>
+                <li><strong>Bachiller En Comercio Y Administración, Opción: Computación</strong></li>
+                <li><strong>Técnico En Ingeniería Eléctrica</strong></li>
+                <li>Curso De Reparación Y Aire Acondicionado Básico</li>
+                <li>Curso De Mantenimiento Y Reparación De Computadoras</li>
+                <li>Curso Modulo 1 Auto CAD 2000</li>
+                <li>Curso Modulo 2 Auto CAD 2000</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Habilidades</h2>
+            <div class="skills">
+                <span class="skill-tag">Trabajo En Equipo</span>
+                <span class="skill-tag">Capacidad De Adaptación</span>
+                <span class="skill-tag">Herramientas Informáticas</span>
+                <span class="skill-tag">Organización Y Gestión Del Tiempo</span>
+                <span class="skill-tag">Resolución De Problemas</span>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Carlos Manuel Romero Hernández. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
